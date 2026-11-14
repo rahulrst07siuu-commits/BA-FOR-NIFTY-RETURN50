@@ -1,0 +1,117 @@
+{
+  "Read Me": {
+    "rows": 13,
+    "columns": [
+      "NIFTY 50 DAILY DATASET \u2014 VERSION 2",
+      "Unnamed: 1"
+    ]
+  },
+  "Daily Nifty Model Data": {
+    "rows": 22,
+    "columns": [
+      "Date",
+      "Nifty_Open",
+      "Nifty_High",
+      "Nifty_Low",
+      "Nifty_Close",
+      "Volume_Raw",
+      "Volume_Shares_Approx",
+      "Nifty_Change_Source_Pct",
+      "Nifty_Return_Calc_Pct",
+      "Nifty_Range_Pct",
+      "Nifty_Gap_Pct",
+      "Nifty_Return_Lag1_Pct",
+      "Nifty_Return_Lag2_Pct",
+      "Nifty_Return_Lag5_Pct",
+      "Nifty_Rolling_Volatility_5d_Pct",
+      "Nifty_SMA_5",
+      "Nifty_SMA_10",
+      "IndiaVIX_Close",
+      "IndiaVIX_Return_Calc_Pct",
+      "SP500_Reference_Date",
+      "SP500_Close",
+      "SP500_Return_Calc_Pct",
+      "SP500_Sessions_Lagged_By_Calendar_Days",
+      "Target_Next_Session_Return_Pct",
+      "Target_Next_Session_Close",
+      "Target_Next_Session_Date"
+    ]
+  },
+  "Monthly SIP FII DII": {
+    "rows": 130,
+    "columns": [
+      "Month",
+      "FII Net Flow (cr)",
+      "SIP Inflow (cr)",
+      "FII Selling (0/1)",
+      "FII Selling x SIP (cr)",
+      "FII Gross Purchase (cr)",
+      "FII Gross Sales (cr)",
+      "DII Gross Purchase (cr)",
+      "DII Gross Sales (cr)",
+      "DII Net Flow (cr)",
+      "FII_Net_Check_cr",
+      "DII_Net_Check_cr",
+      "FII_Net_Reconciliation_Diff_cr",
+      "DII_Net_Reconciliation_Diff_cr"
+    ]
+  },
+  "Monthly Derived Vars": {
+    "rows": 130,
+    "columns": [
+      "Month",
+      "DII Net Flow (cr)",
+      "Previous Month Nifty Return (%)",
+      "Previous 3-Month Return Volatility (%)"
+    ]
+  },
+  "Full Daily VIX SP500": {
+    "rows": 2824,
+    "columns": [
+      "Date",
+      "SP500_Close",
+      "SP500_Open",
+      "SP500_High",
+      "SP500_Low",
+      "SP500_Change_Source_Pct",
+      "SP500_Return_Calc_Pct",
+      "IndiaVIX_Close",
+      "IndiaVIX_Open",
+      "IndiaVIX_High",
+      "IndiaVIX_Low",
+      "IndiaVIX_Change_Source_Pct",
+      "IndiaVIX_Return_Calc_Pct"
+    ]
+  },
+  "Source Audit": {
+    "rows": 4,
+    "columns": [
+      "Source file",
+      "Frequency",
+      "Rows used",
+      "Start",
+      "End",
+      "Fields",
+      "Audit note"
+    ]
+  },
+  "Variable Register": {
+    "rows": 13,
+    "columns": [
+      "Variable",
+      "Frequency",
+      "Status",
+      "Purpose",
+      "Treatment",
+      "Priority"
+    ]
+  },
+  "Model Plan": {
+    "rows": 6,
+    "columns": [
+      "Area",
+      "Approach",
+      "Guardrail"
+    ]
+  }
+}

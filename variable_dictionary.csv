@@ -1,0 +1,76 @@
+sheet,variable,dtype,rows,missing,nonmissing
+Read Me,NIFTY 50 DAILY DATASET — VERSION 2,object,13,1,12
+Read Me,Unnamed: 1,object,13,2,11
+Daily Nifty Model Data,Date,datetime64[ns],22,0,22
+Daily Nifty Model Data,Nifty_Open,float64,22,0,22
+Daily Nifty Model Data,Nifty_High,float64,22,0,22
+Daily Nifty Model Data,Nifty_Low,float64,22,0,22
+Daily Nifty Model Data,Nifty_Close,float64,22,0,22
+Daily Nifty Model Data,Volume_Raw,object,22,0,22
+Daily Nifty Model Data,Volume_Shares_Approx,int64,22,0,22
+Daily Nifty Model Data,Nifty_Change_Source_Pct,float64,22,0,22
+Daily Nifty Model Data,Nifty_Return_Calc_Pct,float64,22,1,21
+Daily Nifty Model Data,Nifty_Range_Pct,float64,22,0,22
+Daily Nifty Model Data,Nifty_Gap_Pct,float64,22,1,21
+Daily Nifty Model Data,Nifty_Return_Lag1_Pct,float64,22,2,20
+Daily Nifty Model Data,Nifty_Return_Lag2_Pct,float64,22,3,19
+Daily Nifty Model Data,Nifty_Return_Lag5_Pct,float64,22,6,16
+Daily Nifty Model Data,Nifty_Rolling_Volatility_5d_Pct,float64,22,5,17
+Daily Nifty Model Data,Nifty_SMA_5,float64,22,4,18
+Daily Nifty Model Data,Nifty_SMA_10,float64,22,9,13
+Daily Nifty Model Data,IndiaVIX_Close,float64,22,0,22
+Daily Nifty Model Data,IndiaVIX_Return_Calc_Pct,float64,22,1,21
+Daily Nifty Model Data,SP500_Reference_Date,datetime64[ns],22,0,22
+Daily Nifty Model Data,SP500_Close,float64,22,0,22
+Daily Nifty Model Data,SP500_Return_Calc_Pct,float64,22,0,22
+Daily Nifty Model Data,SP500_Sessions_Lagged_By_Calendar_Days,int64,22,0,22
+Daily Nifty Model Data,Target_Next_Session_Return_Pct,float64,22,1,21
+Daily Nifty Model Data,Target_Next_Session_Close,float64,22,1,21
+Daily Nifty Model Data,Target_Next_Session_Date,datetime64[ns],22,1,21
+Monthly SIP FII DII,Month,datetime64[ns],130,0,130
+Monthly SIP FII DII,FII Net Flow (cr),float64,130,0,130
+Monthly SIP FII DII,SIP Inflow (cr),float64,130,5,125
+Monthly SIP FII DII,FII Selling (0/1),int64,130,0,130
+Monthly SIP FII DII,FII Selling x SIP (cr),float64,130,5,125
+Monthly SIP FII DII,FII Gross Purchase (cr),float64,130,0,130
+Monthly SIP FII DII,FII Gross Sales (cr),float64,130,0,130
+Monthly SIP FII DII,DII Gross Purchase (cr),float64,130,0,130
+Monthly SIP FII DII,DII Gross Sales (cr),float64,130,0,130
+Monthly SIP FII DII,DII Net Flow (cr),float64,130,0,130
+Monthly SIP FII DII,FII_Net_Check_cr,float64,130,0,130
+Monthly SIP FII DII,DII_Net_Check_cr,float64,130,0,130
+Monthly SIP FII DII,FII_Net_Reconciliation_Diff_cr,float64,130,0,130
+Monthly SIP FII DII,DII_Net_Reconciliation_Diff_cr,float64,130,0,130
+Monthly Derived Vars,Month,datetime64[ns],130,0,130
+Monthly Derived Vars,DII Net Flow (cr),float64,130,0,130
+Monthly Derived Vars,Previous Month Nifty Return (%),float64,130,2,128
+Monthly Derived Vars,Previous 3-Month Return Volatility (%),float64,130,4,126
+Full Daily VIX SP500,Date,datetime64[ns],2824,0,2824
+Full Daily VIX SP500,SP500_Close,float64,2824,99,2725
+Full Daily VIX SP500,SP500_Open,float64,2824,99,2725
+Full Daily VIX SP500,SP500_High,float64,2824,99,2725
+Full Daily VIX SP500,SP500_Low,float64,2824,99,2725
+Full Daily VIX SP500,SP500_Change_Source_Pct,float64,2824,99,2725
+Full Daily VIX SP500,SP500_Return_Calc_Pct,float64,2824,100,2724
+Full Daily VIX SP500,IndiaVIX_Close,float64,2824,133,2691
+Full Daily VIX SP500,IndiaVIX_Open,float64,2824,133,2691
+Full Daily VIX SP500,IndiaVIX_High,float64,2824,133,2691
+Full Daily VIX SP500,IndiaVIX_Low,float64,2824,133,2691
+Full Daily VIX SP500,IndiaVIX_Change_Source_Pct,float64,2824,133,2691
+Full Daily VIX SP500,IndiaVIX_Return_Calc_Pct,float64,2824,134,2690
+Source Audit,Source file,object,4,0,4
+Source Audit,Frequency,object,4,0,4
+Source Audit,Rows used,int64,4,0,4
+Source Audit,Start,object,4,0,4
+Source Audit,End,object,4,0,4
+Source Audit,Fields,object,4,0,4
+Source Audit,Audit note,object,4,0,4
+Variable Register,Variable,object,13,0,13
+Variable Register,Frequency,object,13,0,13
+Variable Register,Status,object,13,0,13
+Variable Register,Purpose,object,13,0,13
+Variable Register,Treatment,object,13,0,13
+Variable Register,Priority,object,13,0,13
+Model Plan,Area,object,6,0,6
+Model Plan,Approach,object,6,0,6
+Model Plan,Guardrail,object,6,0,6
